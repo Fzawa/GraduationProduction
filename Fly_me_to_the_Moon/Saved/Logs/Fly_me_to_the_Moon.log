@@ -2318,3 +2318,340 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.17-13.28.52:214][839]LogFileHelpers: Saving map 'MockUp' took 0.264
 [2020.06.17-13.28.52:226][839]AssetCheck: New page: アセット保存:MockUp
 [2020.06.17-13.28.52:226][839]LogContentValidation: Display: World /Game/Levels/MockUp.MockUp を検証しています
+[2020.06.17-13.32.03:743][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2020.06.17-13.32.09:122][268]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/MyCharacter_BP.MyCharacter_BP
+[2020.06.17-13.32.38:545][983]BlueprintLog: New page: MyCharacter_BP をコンパイル
+[2020.06.17-13.32.38:604][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.06.17-13.32.42:037][316]LogTemp: Repeating last play command: 選択ビューポート
+[2020.06.17-13.32.42:057][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.17-13.32.42:057][316]PIE: New page: PIEセッション: MockUp (2020/06/18 7:32:42)
+[2020.06.17-13.32.42:058][316]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MockUp
+[2020.06.17-13.32.42:138][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080194s)
+[2020.06.17-13.32.42:139][316]LogAIModule: Creating AISystem for world MockUp
+[2020.06.17-13.32.42:139][316]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F29215FE00), frame # 601316
+[2020.06.17-13.32.42:139][316]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F18E0BB380), frame # 601316
+[2020.06.17-13.32.42:140][316]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2020.06.17-13.32.42:140][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MockUp.MockUp to /Game/Levels/UEDPIE_0_MockUp.MockUp (0.081819s)
+[2020.06.17-13.32.42:163][316]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.06.17-13.32.42:164][316]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.17-13.32.42:164][316]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.17-13.32.42:164][316]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.17-13.32.42:164][316]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.17-13.32.42:164][316]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.17-13.32.42:164][316]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.17-13.32.42:164][316]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.17-13.32.42:164][316]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.17-13.32.42:164][316]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.17-13.32.42:164][316]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.17-13.32.42:200][316]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.17-13.32.42:200][316]LogAudioMixer: Display: 1: FrontRight
+[2020.06.17-13.32.42:234][316]LogAudioMixer: Display: Using Audio Device PC後ろのスピーカー (Realtek(R) Audio)
+[2020.06.17-13.32.42:234][316]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.17-13.32.42:234][316]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.17-13.32.42:234][316]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.17-13.32.42:235][316]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.17-13.32.42:251][316]LogInit: FAudioDevice initialized.
+[2020.06.17-13.32.42:260][316]LogLoad: Game class is 'MyGameMode_C'
+[2020.06.17-13.32.42:278][316]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MockUp.MockUp up for play (max tick rate 0) at 2020.06.17-22.32.42
+[2020.06.17-13.32.42:279][316]LogWorld: Bringing up level for play took: 0.018428
+[2020.06.17-13.32.42:279][316]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2020.06.17-13.32.42:282][316]PIE: サーバーにログインしました
+[2020.06.17-13.32.42:283][316]PIE: PIE合計開始時間 0.226 秒。
+[2020.06.17-13.33.34:048][519]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-13.33.34:068][519]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.17-13.33.34:088][519]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.17-13.33.34:089][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-13.33.34:089][519]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MockUp
+[2020.06.17-13.33.34:089][519]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-13.33.34:090][519]LogWorld: UWorld::CleanupWorld for MockUp, bSessionEnded=true, bCleanupResources=true
+[2020.06.17-13.33.34:093][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-13.33.34:109][519]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.17-13.33.34:114][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-13.33.34:136][519]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-13.33.34:169][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-13.33.34:171][519]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F18E0BB380), frame # 607519
+[2020.06.17-13.33.34:171][519]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F29215FE00), frame # 607519
+[2020.06.17-13.33.34:174][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.06.17-13.33.34:221][520]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2020.06.17-13.33.59:892][ 47]BlueprintLog: New page: MyCharacter_BP をコンパイル
+[2020.06.17-13.33.59:946][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.06.17-13.38.41:884][599]LogSlate: Took 0.007117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.06.17-13.39.46:761][179]LogSlate: Window '変数を削除' being destroyed
+[2020.06.17-13.40.00:557][374]BlueprintLog: New page: MyCharacter_BP をコンパイル
+[2020.06.17-13.40.00:605][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.06.17-13.42.00:733][953]BlueprintLog: New page: MyCharacter_BP をコンパイル
+[2020.06.17-13.42.00:781][953]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.06.17-13.45.12:779][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.06.17-13.45.12:986][736]LogSavePackage: Moving '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/MockUp_Auto7F78295AD4BCAB3F8D5F9EBACFBC7AADD.tmp' to '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/Autosaves/Game/Levels/MockUp_Auto7.umap'
+[2020.06.17-13.45.12:994][736]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MockUp' took 0.238
+[2020.06.17-13.45.12:994][736]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.238
+[2020.06.17-13.45.12:994][736]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/MyCharacter_BP] ([1] browsable assets)...
+[2020.06.17-13.45.13:005][736]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/MyCharacter_BP.MyCharacter_BP]
+[2020.06.17-13.45.13:005][736]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/MyCharacter_BP]
+[2020.06.17-13.45.13:047][736]LogSavePackage: Moving '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/MyCharacter_BP_Auto7A8C71DE54AFCBF926E3CCCB1A4155EB7.tmp' to '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/Autosaves/Game/BP/MyCharacter_BP_Auto7.uasset'
+[2020.06.17-13.45.13:048][736]LogFileHelpers: Auto-saving content packages took 0.054
+[2020.06.17-13.55.31:222][680]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.06.17-13.55.31:225][680]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MockUp' took 0.027
+[2020.06.17-13.55.31:225][680]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/MyCharacter_BP] ([1] browsable assets)...
+[2020.06.17-13.55.31:238][680]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/MyCharacter_BP.MyCharacter_BP]
+[2020.06.17-13.55.31:238][680]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/MyCharacter_BP]
+[2020.06.17-13.55.31:275][680]LogSavePackage: Moving '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/MyCharacter_BP_Auto85976AF464E80549A483E48845278F062.tmp' to '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/Autosaves/Game/BP/MyCharacter_BP_Auto8.uasset'
+[2020.06.17-13.55.31:276][680]LogFileHelpers: Auto-saving content packages took 0.051
+[2020.06.17-14.03.08:527][372]BlueprintLog: New page: MyCharacter_BP をコンパイル
+[2020.06.17-14.03.08:575][372]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.06.17-14.05.31:539][804]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.06.17-14.05.31:741][804]LogSavePackage: Moving '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/MockUp_Auto90BD21D2F431102BC01E3ED89E04F9770.tmp' to '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/Autosaves/Game/Levels/MockUp_Auto9.umap'
+[2020.06.17-14.05.31:744][804]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MockUp' took 0.228
+[2020.06.17-14.05.31:744][804]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.228
+[2020.06.17-14.05.31:744][804]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/MyCharacter_BP] ([1] browsable assets)...
+[2020.06.17-14.05.31:760][804]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/MyCharacter_BP.MyCharacter_BP]
+[2020.06.17-14.05.31:760][804]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/MyCharacter_BP]
+[2020.06.17-14.05.31:796][804]LogSavePackage: Moving '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/MyCharacter_BP_Auto969472F984BF4B0CFA8F376AD80A1AD97.tmp' to '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/Autosaves/Game/BP/MyCharacter_BP_Auto9.uasset'
+[2020.06.17-14.05.31:797][804]LogFileHelpers: Auto-saving content packages took 0.053
+[2020.06.17-14.09.32:975][433]BlueprintLog: New page: MyCharacter_BP をコンパイル
+[2020.06.17-14.09.33:021][433]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.06.17-14.10.21:854][491]BlueprintLog: New page: MyCharacter_BP をコンパイル
+[2020.06.17-14.10.21:905][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.06.17-14.10.22:753][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyCharacter_BP" FILE="../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Content/BP/MyCharacter_BP.uasset" SILENT=true
+[2020.06.17-14.10.22:784][563]LogSavePackage: Moving '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/MyCharacter_BP9A5591F44EA43D16BE64AFB0E5B0CB86.tmp' to '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Content/BP/MyCharacter_BP.uasset'
+[2020.06.17-14.10.22:801][563]AssetCheck: New page: アセット保存:MyCharacter_BP
+[2020.06.17-14.10.22:801][563]LogContentValidation: Display: Blueprint /Game/BP/MyCharacter_BP.MyCharacter_BP を検証しています
+[2020.06.17-14.10.38:559][337]LogTemp: Repeating last play command: 選択ビューポート
+[2020.06.17-14.10.38:581][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.17-14.10.38:581][337]PIE: New page: PIEセッション: MockUp (2020/06/18 8:10:38)
+[2020.06.17-14.10.38:581][337]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MockUp
+[2020.06.17-14.10.38:626][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044685s)
+[2020.06.17-14.10.38:627][337]LogAIModule: Creating AISystem for world MockUp
+[2020.06.17-14.10.38:627][337]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F2857BBE00), frame # 790337
+[2020.06.17-14.10.38:627][337]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F21CF0B9C0), frame # 790337
+[2020.06.17-14.10.38:627][337]LogPlayLevel: PIE: World Init took: (0.001497s)
+[2020.06.17-14.10.38:627][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MockUp.MockUp to /Game/Levels/UEDPIE_0_MockUp.MockUp (0.046376s)
+[2020.06.17-14.10.38:651][337]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.06.17-14.10.38:652][337]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.17-14.10.38:652][337]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.17-14.10.38:652][337]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.17-14.10.38:652][337]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.17-14.10.38:652][337]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.17-14.10.38:652][337]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.17-14.10.38:652][337]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.17-14.10.38:652][337]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.17-14.10.38:652][337]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.17-14.10.38:652][337]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.17-14.10.38:656][337]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.17-14.10.38:656][337]LogAudioMixer: Display: 1: FrontRight
+[2020.06.17-14.10.38:691][337]LogAudioMixer: Display: Using Audio Device PC後ろのスピーカー (Realtek(R) Audio)
+[2020.06.17-14.10.38:691][337]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.17-14.10.38:691][337]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.17-14.10.38:691][337]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.17-14.10.38:691][337]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.17-14.10.38:708][337]LogInit: FAudioDevice initialized.
+[2020.06.17-14.10.38:714][337]LogLoad: Game class is 'MyGameMode_C'
+[2020.06.17-14.10.38:733][337]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MockUp.MockUp up for play (max tick rate 0) at 2020.06.17-23.10.38
+[2020.06.17-14.10.38:734][337]LogWorld: Bringing up level for play took: 0.018638
+[2020.06.17-14.10.38:734][337]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2020.06.17-14.10.38:737][337]PIE: サーバーにログインしました
+[2020.06.17-14.10.38:738][337]PIE: PIE合計開始時間 0.157 秒。
+[2020.06.17-14.10.56:304][435]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-14.10.56:330][435]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.17-14.10.56:351][435]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.17-14.10.56:352][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-14.10.56:352][435]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MockUp
+[2020.06.17-14.10.56:352][435]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-14.10.56:352][435]LogWorld: UWorld::CleanupWorld for MockUp, bSessionEnded=true, bCleanupResources=true
+[2020.06.17-14.10.56:355][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-14.10.56:374][435]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.17-14.10.56:378][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-14.10.56:400][435]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-14.10.56:420][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-14.10.56:422][435]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F21CF0B9C0), frame # 792435
+[2020.06.17-14.10.56:422][435]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F2857BBE00), frame # 792435
+[2020.06.17-14.10.56:425][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.06.17-14.10.56:479][436]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2020.06.17-14.11.36:771][563]BlueprintLog: New page: MyCharacter_BP をコンパイル
+[2020.06.17-14.11.36:819][563]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.06.17-14.16.33:025][924]BlueprintLog: New page: MyCharacter_BP をコンパイル
+[2020.06.17-14.16.33:077][924]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.06.17-14.16.33:769][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyCharacter_BP" FILE="../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Content/BP/MyCharacter_BP.uasset" SILENT=true
+[2020.06.17-14.16.33:809][976]LogSavePackage: Moving '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/MyCharacter_BP0243DBEF464642B3B919FF8FA87D0A3A.tmp' to '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Content/BP/MyCharacter_BP.uasset'
+[2020.06.17-14.16.33:824][976]AssetCheck: New page: アセット保存:MyCharacter_BP
+[2020.06.17-14.16.33:824][976]LogContentValidation: Display: Blueprint /Game/BP/MyCharacter_BP.MyCharacter_BP を検証しています
+[2020.06.17-14.16.34:868][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube38)
+[2020.06.17-14.16.37:666][356]LogTemp: Repeating last play command: 選択ビューポート
+[2020.06.17-14.16.37:687][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.17-14.16.37:687][356]PIE: New page: PIEセッション: MockUp (2020/06/18 8:16:37)
+[2020.06.17-14.16.37:687][356]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MockUp
+[2020.06.17-14.16.37:731][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043668s)
+[2020.06.17-14.16.37:732][356]LogAIModule: Creating AISystem for world MockUp
+[2020.06.17-14.16.37:732][356]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F2857BBE00), frame # 825356
+[2020.06.17-14.16.37:732][356]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F2BF76CF40), frame # 825356
+[2020.06.17-14.16.37:732][356]LogPlayLevel: PIE: World Init took: (0.001629s)
+[2020.06.17-14.16.37:732][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MockUp.MockUp to /Game/Levels/UEDPIE_0_MockUp.MockUp (0.045551s)
+[2020.06.17-14.16.37:755][356]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.06.17-14.16.37:756][356]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.17-14.16.37:756][356]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.17-14.16.37:757][356]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.17-14.16.37:757][356]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.17-14.16.37:757][356]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.17-14.16.37:757][356]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.17-14.16.37:757][356]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.17-14.16.37:757][356]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.17-14.16.37:757][356]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.17-14.16.37:757][356]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.17-14.16.37:761][356]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.17-14.16.37:761][356]LogAudioMixer: Display: 1: FrontRight
+[2020.06.17-14.16.37:794][356]LogAudioMixer: Display: Using Audio Device PC後ろのスピーカー (Realtek(R) Audio)
+[2020.06.17-14.16.37:795][356]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.17-14.16.37:795][356]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.17-14.16.37:795][356]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.17-14.16.37:795][356]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.17-14.16.37:796][356]LogInit: FAudioDevice initialized.
+[2020.06.17-14.16.37:816][356]LogLoad: Game class is 'MyGameMode_C'
+[2020.06.17-14.16.37:834][356]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MockUp.MockUp up for play (max tick rate 0) at 2020.06.17-23.16.37
+[2020.06.17-14.16.37:835][356]LogWorld: Bringing up level for play took: 0.019172
+[2020.06.17-14.16.37:835][356]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2020.06.17-14.16.37:838][356]PIE: サーバーにログインしました
+[2020.06.17-14.16.37:839][356]PIE: PIE合計開始時間 0.153 秒。
+[2020.06.17-14.17.37:847][546]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-14.17.37:851][546]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.17-14.17.37:870][546]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.17-14.17.37:871][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-14.17.37:871][546]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MockUp
+[2020.06.17-14.17.37:871][546]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-14.17.37:872][546]LogWorld: UWorld::CleanupWorld for MockUp, bSessionEnded=true, bCleanupResources=true
+[2020.06.17-14.17.37:875][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-14.17.37:895][546]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.17-14.17.37:899][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-14.17.37:921][546]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-14.17.37:962][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-14.17.37:964][546]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F2BF76CF40), frame # 832546
+[2020.06.17-14.17.37:964][546]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F2857BBE00), frame # 832546
+[2020.06.17-14.17.37:967][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.06.17-14.17.38:022][547]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2020.06.17-14.18.03:939][148]BlueprintLog: New page: MyCharacter_BP をコンパイル
+[2020.06.17-14.18.03:989][148]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.06.17-14.18.04:844][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyCharacter_BP" FILE="../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Content/BP/MyCharacter_BP.uasset" SILENT=true
+[2020.06.17-14.18.04:877][223]LogSavePackage: Moving '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/MyCharacter_BP984D5F874B92115026B56F9C8870E86C.tmp' to '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Content/BP/MyCharacter_BP.uasset'
+[2020.06.17-14.18.04:891][223]AssetCheck: New page: アセット保存:MyCharacter_BP
+[2020.06.17-14.18.04:891][223]LogContentValidation: Display: Blueprint /Game/BP/MyCharacter_BP.MyCharacter_BP を検証しています
+[2020.06.17-14.18.08:657][612]LogTemp: Repeating last play command: 選択ビューポート
+[2020.06.17-14.18.08:677][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.17-14.18.08:677][612]PIE: New page: PIEセッション: MockUp (2020/06/18 8:18:08)
+[2020.06.17-14.18.08:677][612]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MockUp
+[2020.06.17-14.18.08:721][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043471s)
+[2020.06.17-14.18.08:722][612]LogAIModule: Creating AISystem for world MockUp
+[2020.06.17-14.18.08:722][612]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F257E4C200), frame # 835612
+[2020.06.17-14.18.08:722][612]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F1A1C07C40), frame # 835612
+[2020.06.17-14.18.08:722][612]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2020.06.17-14.18.08:722][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MockUp.MockUp to /Game/Levels/UEDPIE_0_MockUp.MockUp (0.045036s)
+[2020.06.17-14.18.08:745][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.06.17-14.18.08:746][612]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.17-14.18.08:746][612]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.17-14.18.08:746][612]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.17-14.18.08:746][612]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.17-14.18.08:746][612]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.17-14.18.08:746][612]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.17-14.18.08:746][612]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.17-14.18.08:746][612]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.17-14.18.08:747][612]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.17-14.18.08:747][612]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.17-14.18.08:750][612]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.17-14.18.08:750][612]LogAudioMixer: Display: 1: FrontRight
+[2020.06.17-14.18.08:783][612]LogAudioMixer: Display: Using Audio Device PC後ろのスピーカー (Realtek(R) Audio)
+[2020.06.17-14.18.08:783][612]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.17-14.18.08:783][612]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.17-14.18.08:783][612]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.17-14.18.08:784][612]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.17-14.18.08:800][612]LogInit: FAudioDevice initialized.
+[2020.06.17-14.18.08:810][612]LogLoad: Game class is 'MyGameMode_C'
+[2020.06.17-14.18.08:829][612]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MockUp.MockUp up for play (max tick rate 0) at 2020.06.17-23.18.08
+[2020.06.17-14.18.08:830][612]LogWorld: Bringing up level for play took: 0.018899
+[2020.06.17-14.18.08:830][612]LogOnline: OSS: Creating online subsystem instance for: :Context_52
+[2020.06.17-14.18.08:833][612]PIE: サーバーにログインしました
+[2020.06.17-14.18.08:833][612]PIE: PIE合計開始時間 0.156 秒。
+[2020.06.17-14.18.18:854][809]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-14.18.18:860][809]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.17-14.18.18:890][809]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.17-14.18.18:891][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-14.18.18:891][809]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MockUp
+[2020.06.17-14.18.18:891][809]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-14.18.18:892][809]LogWorld: UWorld::CleanupWorld for MockUp, bSessionEnded=true, bCleanupResources=true
+[2020.06.17-14.18.18:894][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-14.18.18:914][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.17-14.18.18:918][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-14.18.18:941][809]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-14.18.18:969][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-14.18.18:971][809]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F1A1C07C40), frame # 836809
+[2020.06.17-14.18.18:971][809]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F257E4C200), frame # 836809
+[2020.06.17-14.18.18:974][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.06.17-14.18.19:027][810]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2020.06.17-14.18.40:108][ 74]BlueprintLog: New page: MyCharacter_BP をコンパイル
+[2020.06.17-14.18.40:159][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.06.17-14.18.42:441][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyCharacter_BP" FILE="../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Content/BP/MyCharacter_BP.uasset" SILENT=true
+[2020.06.17-14.18.42:474][271]LogSavePackage: Moving '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/MyCharacter_BP669EE6A245972F56065F46A0ED1B96CC.tmp' to '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Content/BP/MyCharacter_BP.uasset'
+[2020.06.17-14.18.42:488][271]AssetCheck: New page: アセット保存:MyCharacter_BP
+[2020.06.17-14.18.42:488][271]LogContentValidation: Display: Blueprint /Game/BP/MyCharacter_BP.MyCharacter_BP を検証しています
+[2020.06.17-14.18.45:177][554]LogTemp: Repeating last play command: 選択ビューポート
+[2020.06.17-14.18.45:198][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.17-14.18.45:198][554]PIE: New page: PIEセッション: MockUp (2020/06/18 8:18:45)
+[2020.06.17-14.18.45:198][554]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MockUp
+[2020.06.17-14.18.45:242][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043855s)
+[2020.06.17-14.18.45:243][554]LogAIModule: Creating AISystem for world MockUp
+[2020.06.17-14.18.45:243][554]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F244B9B800), frame # 839554
+[2020.06.17-14.18.45:243][554]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F1A1C04900), frame # 839554
+[2020.06.17-14.18.45:243][554]LogPlayLevel: PIE: World Init took: (0.001113s)
+[2020.06.17-14.18.45:243][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MockUp.MockUp to /Game/Levels/UEDPIE_0_MockUp.MockUp (0.045153s)
+[2020.06.17-14.18.45:266][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.06.17-14.18.45:267][554]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.17-14.18.45:267][554]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.17-14.18.45:267][554]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.17-14.18.45:267][554]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.17-14.18.45:267][554]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.17-14.18.45:267][554]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.17-14.18.45:267][554]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.17-14.18.45:267][554]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.17-14.18.45:268][554]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.17-14.18.45:268][554]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.17-14.18.45:272][554]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.17-14.18.45:272][554]LogAudioMixer: Display: 1: FrontRight
+[2020.06.17-14.18.45:304][554]LogAudioMixer: Display: Using Audio Device PC後ろのスピーカー (Realtek(R) Audio)
+[2020.06.17-14.18.45:304][554]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.17-14.18.45:304][554]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.17-14.18.45:304][554]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.17-14.18.45:304][554]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.17-14.18.45:320][554]LogInit: FAudioDevice initialized.
+[2020.06.17-14.18.45:332][554]LogLoad: Game class is 'MyGameMode_C'
+[2020.06.17-14.18.45:350][554]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MockUp.MockUp up for play (max tick rate 0) at 2020.06.17-23.18.45
+[2020.06.17-14.18.45:351][554]LogWorld: Bringing up level for play took: 0.018124
+[2020.06.17-14.18.45:351][554]LogOnline: OSS: Creating online subsystem instance for: :Context_53
+[2020.06.17-14.18.45:354][554]PIE: サーバーにログインしました
+[2020.06.17-14.18.45:355][554]PIE: PIE合計開始時間 0.157 秒。
+[2020.06.17-14.18.56:735][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-14.18.56:741][914]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.17-14.18.56:761][914]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.17-14.18.56:761][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-14.18.56:761][914]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MockUp
+[2020.06.17-14.18.56:761][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-14.18.56:762][914]LogWorld: UWorld::CleanupWorld for MockUp, bSessionEnded=true, bCleanupResources=true
+[2020.06.17-14.18.56:765][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-14.18.56:787][914]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.17-14.18.56:791][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-14.18.56:813][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-14.18.56:852][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-14.18.56:853][914]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F244B9B800), frame # 840914
+[2020.06.17-14.18.56:854][914]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F1A1C04900), frame # 840914
+[2020.06.17-14.18.56:856][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.06.17-14.18.56:909][915]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2020.06.17-14.19.09:725][220]BlueprintLog: New page: MyCharacter_BP をコンパイル
+[2020.06.17-14.19.09:775][220]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.06.17-14.19.12:296][461]LogSlate: Window 'MyCharacter_BP' being destroyed
+[2020.06.17-14.19.12:301][461]LogSlate: Window 'MyCharacter_BP' being destroyed
+[2020.06.17-14.19.12:308][461]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.06.17-14.19.12:308][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-14.19.16:585][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyCharacter_BP" FILE="../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Content/BP/MyCharacter_BP.uasset" SILENT=true
+[2020.06.17-14.19.16:615][923]LogSavePackage: Moving '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/MyCharacter_BP86177222478F95BE5BB1E1BF6C604E54.tmp' to '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Content/BP/MyCharacter_BP.uasset'
+[2020.06.17-14.19.16:628][923]AssetCheck: New page: アセット保存:MyCharacter_BP
+[2020.06.17-14.19.16:628][923]LogContentValidation: Display: Blueprint /Game/BP/MyCharacter_BP.MyCharacter_BP を検証しています
+[2020.06.17-14.19.42:492][198]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.06.17-14.19.42:696][198]LogSavePackage: Moving '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/MockUp_Auto0FEFD8D2C49578FFFDD948596A23F532F.tmp' to '../../../../../../Users/hotat/Desktop/sotusei/GitLocal/Fly_me_to_the_Moon/Saved/Autosaves/Game/Levels/MockUp_Auto0.umap'
+[2020.06.17-14.19.42:699][198]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MockUp' took 0.230
+[2020.06.17-14.19.42:699][198]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.230
